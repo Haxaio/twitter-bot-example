@@ -3,7 +3,7 @@ on:
   push:
   pull_request:
   schedule:
-  - cron: '0 0 1 1 0'  # every minute
+  - cron: '0 0 1 1 0'  # every year
 
 jobs:
   test_schedule:
