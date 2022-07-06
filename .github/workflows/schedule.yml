@@ -1,0 +1,11 @@
+name: Run bot
+on:
+  schedule:
+    - cron: '1/5 * * * *'  # every five minutes
+    
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Every time
+        run: python bot.py
