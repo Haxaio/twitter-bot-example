@@ -1,7 +1,7 @@
 name: Run bot
 on:
   schedule:
-    - cron: '1/5 * * * *'  # every five minutes
+    - cron: '* * * * *'  # every five minutes
     
 jobs:
   test_schedule:
